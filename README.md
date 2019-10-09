@@ -167,7 +167,7 @@ Add the plugin to `nuxt.config.js`:
 
 ```
 plugins: [
-  '~/plugins/lightGallery.client.js',
+  { src: '~/plugins/lightGallery.client.js', ssr: false }
 ],
 ```
 
